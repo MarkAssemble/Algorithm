@@ -1,19 +1,18 @@
-
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		int A,B;
+		long A,B;
 		Scanner sc = new Scanner(System.in);
 		
-		A = sc.nextInt();
-		B = sc.nextInt();
+		A = sc.nextLong();
+		B = sc.nextLong();
 		
 		System.out.println(golbang(A,B));
 		
 	}
-	public static long golbang(int A,int B) {
+	public static long golbang(long A,Long B) {
 		long C = (A+B)*(A-B);
 		return C;
 	}
